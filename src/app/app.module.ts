@@ -35,13 +35,15 @@ import {HttpClientModule} from '@angular/common/http';
     CommonModule,
     FormsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDfJO48nLxh390YRzexJrDRFRoLx9lRlac'
+      apiKey: 'AIzaSyDFT55Qs8eoTCRS0Js_e9IyZJn8RsSz0P4' 
+      // AIzaSyDfJO48nLxh390YRzexJrDRFRoLx9lRlac'
       // 'AIzaSyCh7rSz7BbqbYOdUcy7t0GTNgCaUxVvNmU'
          
 
     })
   ],
   providers: [GoogleMapsAPIWrapper],
+  declarations: [ AppComponent ],
   bootstrap: [AppComponent],
 
 })
